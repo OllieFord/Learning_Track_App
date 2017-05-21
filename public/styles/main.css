@@ -33,10 +33,9 @@ body {
   font-size: 30px;
   display: inline-block;
 }
-.searchButton:select {
-  border: none;
+.searchButton:focus {
+  outline: none;
 }
-/*Resize the wrap to see the search bar change!*/
 .container {
   width: 80%;
   left: 0;
