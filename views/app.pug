@@ -1,0 +1,15 @@
+﻿extend structure/simple.pug
+
+block body
+	.container
+		.search
+			input.searchTerm(type='text', placeholder='What would you like to learn today?')
+			button.searchButton(type='submit')
+				i.fa.fa-search
+
+		.learning-tracks
+			h2 Learning track appears here
+		
+
+
+block append scripts
