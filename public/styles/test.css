@@ -1,0 +1,154 @@
+*,
+*::after,
+*::before {
+	box-sizing: border-box;
+}
+
+body {
+	overflow: hidden;
+	margin: 0;
+	color: #a0a2ae;
+	background: #282b2f;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.main-wrap {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 100%;
+	height: 100vh;
+	background-color: #22295f;
+	background-position: 50% 10em;
+	background-size: 75% auto;
+}
+
+
+/* Buttons */
+
+.btn {
+	margin: 0;
+	padding: 0;
+	cursor: pointer;
+	border: none;
+	background: none;
+}
+
+.btn:focus {
+	outline: none;
+}
+
+.btn--search {
+	font-size: 1.5em;
+}
+
+.btn--hidden {
+	pointer-events: none;
+	opacity: 0;
+}
+
+
+/* Reset Search Input */
+
+.search__input {
+	border: 0;
+	background: transparent;
+	border-radius: 0;
+	-webkit-appearance: none;
+}
+
+.search__input:focus {
+	outline: none;
+}
+
+
+/* Links */
+
+a,
+.btn {
+	text-decoration: none;
+	color: #d17c78;
+	outline: none;
+}
+
+.hidden {
+	position: absolute;
+	overflow: hidden;
+	width: 0;
+	height: 0;
+	pointer-events: none;
+}
+
+
+/* Icons */
+
+.icon {
+	display: block;
+	width: 1.5em;
+	height: 1.5em;
+	margin: 0 auto;
+	fill: currentColor;
+}
+
+/* Bottom nav */
+
+.bottom-nav {
+	position: relative;
+	width: 100%;
+	margin: auto 0 0 0;
+	padding: 2.5em 2.75em 2.5em 2em;
+}
+
+
+/* Demo links */
+
+
+
+
+/* Deco lines */
+
+.decolines {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100vh;
+	pointer-events: none;
+}
+
+.decoline {
+	position: absolute;
+	width: 1px;
+	height: 100%;
+	background: #ddd;
+}
+
+.decoline:first-child {
+	right: 88em;
+}
+
+.decoline:nth-child(2) {
+	right: 68em;
+}
+
+.decoline:nth-child(3) {
+	right: 48em;
+}
+
+.decoline:nth-child(4) {
+	right: 28em;
+}
+
+.decoline:nth-child(5) {
+	right: 8em;
+}
+
+
+/* Demo colors */
+.pallete { color: #F1FAEE; }
+.pallete main { background-color:#1D3557; }
+.pallete a, .pallete .btn { color: #e85454; }
+.pallete  { margin-top: auto; }
+
