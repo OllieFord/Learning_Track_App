@@ -3,6 +3,10 @@ body {
   background: #f2f2f2;
   font-family: 'Roboto', sans-serif;
 }
+input::placeholder {
+/* WebKit, Blink, Edge */
+  color: #a8dadc;
+}
 .logo {
   text-transform: uppercase;
   font-weight: 900;
@@ -74,8 +78,15 @@ body {
   height: 420px;
   margin-top: 2%;
 }
-.learning-track {
+.topic {
+  color: #a8dadc;
+}
+.description {
   margin: 2%;
+}
+.learning-track {
+  margin-top: 4%;
+  color: #a8dadc;
 }
 nav a {
   float: right;

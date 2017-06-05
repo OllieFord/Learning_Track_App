@@ -34,23 +34,23 @@
 
 .search__form {
 	position: relative;
-	width: 70%;
+	width: 85%;
 	min-width: 300px;
 	margin: 0 auto;
 }
 
 .search__input {
-	font-family: Roboto;
 	font-weight: 100;
-	font-size: 5em;
+	font-size: 6em;
 	display: inline-block;
 	-webkit-box-sizing: border-box;
 	box-sizing: border-box;
+	line-height: 1.5;
 	width: 100%;
 	padding: 0 1em 0.15em 0;
 	pointer-events: auto;
 	color: #A8DADC;
-	border-bottom: 2px solid;
+	border-bottom: 1px solid;
 }
 
 .search__input::-webkit-search-cancel-button,
